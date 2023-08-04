@@ -25,3 +25,22 @@
 #container a {
   text-decoration: none;
 }
+.logo{
+  width: 16%;
+}
+.contenedor{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titulo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+  font-family: cursive;
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "despensa-671f5": {
+      "hosting": {
+        "app": [
+          "despensa-671f5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "despensa-671f5"
+  }
+}
