@@ -1,0 +1,7 @@
+{
+  "name": "Despensa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
