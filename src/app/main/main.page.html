@@ -5,9 +5,10 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">main</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="contenedor">
+    <ion-button style="margin-top: 6%;width: 50%;" class="boton" size="default" (click)="goToAlmacen()">Ver despensa</ion-button>
+    <ion-button style="margin-top: 6%;width: 50%;" class="boton" size="default" (click)="goToProductos()" >Productos</ion-button>
+    <ion-button style="margin-top: 6%;width: 50%;" class="boton" size="default" (click)="goToLugares()">Lugares</ion-button>  
+  </div>
+ 
 </ion-content>
